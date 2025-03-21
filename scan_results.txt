@@ -1,0 +1,106 @@
+[ERROR] SQL Injection check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[XSS Scan Completed]
+[!] Missing security header: Content-Security-Policy
+[!] Missing security header: X-Frame-Options
+[!] Missing security header: X-Content-Type-Options
+[!] Missing security header: Strict-Transport-Security
+[!] Missing security header: Referrer-Policy
+[Security Header Scan Completed]
+[ERROR] SQL Injection check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ERROR] XSS check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[XSS Scan Completed]
+[!] Missing security header: Content-Security-Policy
+[!] Missing security header: X-Frame-Options
+[!] Missing security header: X-Content-Type-Options
+[!] Missing security header: Strict-Transport-Security
+[!] Missing security header: Referrer-Policy
+[Security Header Scan Completed]
+[🚀] Starting scan on http://testphp.vulnweb.com
+
+[🔍] Scanning for SQL Injection...
+[‼️] Possible SQL Injection at http://testphp.vulnweb.com
+     Payload: '; DROP TABLE users; --
+
+[🔍] Scanning for XSS...
+[‼️] Possible XSS at http://testphp.vulnweb.com
+     Payload: <script>alert(1)</script>
+
+[🔍] Checking Security Headers...
+[⚠️] Missing Security Headers at http://testphp.vulnweb.com:
+    - X-Frame-Options
+    - Content-Security-Policy
+    - X-XSS-Protection
+    - Strict-Transport-Security
+    - Referrer-Policy
+    - Permissions-Policy
+
+[📄] Scan complete. Results saved to scan_results.txt
+[🚀] Starting scan on http://testphp.vulnweb.com
+
+[🔍] Scanning for SQL Injection...
+[‼️] Possible SQL Injection at http://testphp.vulnweb.com
+     Payload: '; DROP TABLE users; --
+
+[🔍] Scanning for XSS...
+[‼️] Possible XSS at http://testphp.vulnweb.com
+     Payload: <script>alert(1)</script>
+
+[🔍] Checking Security Headers...
+[⚠️] Missing Security Headers at http://testphp.vulnweb.com:
+    - X-Frame-Options
+    - Content-Security-Policy
+    - X-XSS-Protection
+    - Strict-Transport-Security
+    - Referrer-Policy
+    - Permissions-Policy
+
+[📄] Scan complete. Results saved to scan_results.txt
+[🚀] Starting scan on http://testphp.vulnweb.com
+
+[🔍] Scanning for SQL Injection...
+[‼️] Possible SQL Injection at http://testphp.vulnweb.com
+     Payload: '; DROP TABLE users; --
+
+[🔍] Scanning for XSS...
+[‼️] Possible XSS at http://testphp.vulnweb.com
+     Payload: <script>alert(1)</script>
+
+[🔍] Checking Security Headers...
+[⚠️] Missing Security Headers at http://testphp.vulnweb.com:
+    - X-Frame-Options
+    - Content-Security-Policy
+    - X-XSS-Protection
+    - Strict-Transport-Security
+    - Referrer-Policy
+    - Permissions-Policy
+
+[🔍] Scanning for Open Redirect Vulnerabilities...
+
+[📄] Scan complete. Results saved to scan_results.txt
+[🚀] Starting scan on http://testphp.vulnweb.com
+
+[🔍] Scanning for SQL Injection...
+
+[🔍] Scanning for XSS...
+
+[🔍] Checking Security Headers...
+[⚠️] Missing Security Headers at http://testphp.vulnweb.com:
+    - X-Frame-Options
+    - Content-Security-Policy
+    - X-XSS-Protection
+    - Strict-Transport-Security
+    - Referrer-Policy
+    - Permissions-Policy
+
+[🔍] Scanning for Open Redirect Vulnerabilities...
+
+[📄] Scan complete. Results saved to scan_results.txt
